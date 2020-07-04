@@ -64,7 +64,7 @@ class Calculator {
     }
 
     compute () {
-        var computation;g
+        var computation;
         var prev = parseFloat(this.previousOperand);
         var curr = parseFloat(this.currentOperand);
         if(isNaN(prev) || isNaN(curr)) return;
